@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.1/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -142,7 +143,7 @@ MAILERS = {
             "port": 587,
             "use_tls": True,
             "username": "franklinemmbaya@gmail.com",
-            "password": "cqtzrfelpkbilvmw",
+            "password": os.environ.get("EMAIL_HOST_PASSWORD"),
             "timeout": 30,
         },
     },
