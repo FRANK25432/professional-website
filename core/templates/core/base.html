@@ -1,0 +1,103 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}My Professional Website{% endblock %}</title>
+    
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+>
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">Frank<span>.</span></h2>
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="horizontal-pages">
+
+    {% block content %}
+    {% endblock %}
+
+    </main>
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-heading">
+            <p class="section-label">GET IN TOUCH</p>
+
+            <h2>Let's Connect</h2>
+
+            <p>
+                Feel free to connect with me through any of the platforms below.
+            </p>
+        </div>
+
+
+        <div class="social-links">
+
+    <a href="#" class="social-link" title="Email">
+        <i class="fas fa-envelope"></i>
+    </a>
+
+    <a href="#" class="social-link" title="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="#" class="social-link" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="#" class="social-link" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+
+    <a href="#" class="social-link" title="Twitter">
+        <i class="fab fa-x-twitter"></i>
+    </a>
+
+    <a href="#" class="social-link" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</div>
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 Frankline Mmbaya. All rights reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <script src="{% static 'core/js/slideshow.js' %}"></script>
+
+</body>
+
+</html>
