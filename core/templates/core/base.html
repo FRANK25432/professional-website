@@ -9,6 +9,7 @@
 
     <title>{% block title %}My Professional Website{% endblock %}</title>
     
+    <link rel="icon" type="image/svg+xml" href="{% static 'core/images/favicon.svg' %}">
     <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
 
     <link
@@ -23,7 +24,9 @@
 
     <header>
         <nav>
-            <h2 class="logo">Frank<span>.</span></h2>
+            <a href="/" class="brand-logo">
+                <img src="{% static 'core/images/fm-logo.svg' %}" alt="Fank Tech Solutions">
+                </a>
 
             <ul>
                 <li><a href="/">Home</a></li>
@@ -87,7 +90,7 @@
         <div class="footer-bottom">
 
             <p>
-                &copy; 2026 Frankline Mmbaya. All rights reserved.
+                &copy; 2026 Frank Tech Solutions. All rights reserved.
             </p>
 
         </div>

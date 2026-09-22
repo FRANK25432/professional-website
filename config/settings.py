@@ -143,7 +143,7 @@ MAILERS = {
             "port": 587,
             "use_tls": True,
             "username": "franklinemmbaya@gmail.com",
-            "password": os.environ.get("EMAIL_HOST_PASSWORD"),
+            "password": os.environ.get("EMAIL_HOST_PASSWORD"), 
             "timeout": 30,
         },
     },

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 300 80"
+     width="300"
+     height="80">
+
+  <!-- Background -->
+  <rect width="300" height="80" rx="10" fill="#071525"/>
+
+  <!-- FTS Logo Mark -->
+  <rect x="12" y="12" width="56" height="56" rx="10" fill="#0b223d"/>
+
+  <!-- F -->
+  <path d="M21 57V23H46V31H30V36H44V44H30V57Z"
+        fill="#ffffff"/>
+
+  <!-- T -->
+  <path d="M40 23H62V31H55V57H47V31H40Z"
+        fill="#00aaff"/>
+
+  <!-- S -->
+  <path d="M59 35
+           C59 27 65 23 73 23
+           H82V31
+           H73
+           C70 31 68 32 68 34
+           C68 36 70 37 75 38
+           C83 40 87 44 87 49
+           C87 55 82 57 74 57
+           H63V49
+           H75
+           C78 49 79 48 79 46
+           C79 44 77 43 72 42
+           C64 40 59 39 59 35Z"
+        fill="#008cff"/>
+
+  <!-- Business name -->
+  <text x="100"
+        y="35"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        font-weight="700"
+        fill="#ffffff">
+    FANK
+  </text>
+
+  <text x="100"
+        y="58"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        font-weight="700"
+        fill="#00aaff">
+    TECH SOLUTIONS
+  </text>
+
+</svg>
